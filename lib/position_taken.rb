@@ -2,7 +2,7 @@
 board = Array.new(9, " " || "")
 
 def position_taken?(board, index)
-  if index == " " || ""
+  if index !== " " || ""
     puts "Move is available"
     elsif index == "X" || "O"
     puts "Move is taken"
